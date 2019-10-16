@@ -1,0 +1,77 @@
+/sys/kernel/debug/ieee80211/phy1/airtime_flags:3
+/sys/kernel/debug/ieee80211/phy1/aqm:access name value
+/sys/kernel/debug/ieee80211/phy1/aqm:R fq_flows_cnt 4096
+/sys/kernel/debug/ieee80211/phy1/aqm:R fq_backlog 0
+/sys/kernel/debug/ieee80211/phy1/aqm:R fq_overlimit 0
+/sys/kernel/debug/ieee80211/phy1/aqm:R fq_overmemory 0
+/sys/kernel/debug/ieee80211/phy1/aqm:R fq_collisions 0
+/sys/kernel/debug/ieee80211/phy1/aqm:R fq_memory_usage 0
+/sys/kernel/debug/ieee80211/phy1/aqm:RW fq_memory_limit 4194304
+/sys/kernel/debug/ieee80211/phy1/aqm:RW fq_limit 8192
+/sys/kernel/debug/ieee80211/phy1/aqm:RW fq_quantum 300
+/sys/kernel/debug/ieee80211/phy1/fragmentation_threshold:-1
+/sys/kernel/debug/ieee80211/phy1/ht40allow_map:5180 HT40  +
+/sys/kernel/debug/ieee80211/phy1/ht40allow_map:5200 HT40 -+
+/sys/kernel/debug/ieee80211/phy1/ht40allow_map:5220 HT40 -+
+/sys/kernel/debug/ieee80211/phy1/ht40allow_map:5240 HT40 -+
+/sys/kernel/debug/ieee80211/phy1/ht40allow_map:5260 HT40 -+
+/sys/kernel/debug/ieee80211/phy1/ht40allow_map:5280 HT40 -+
+/sys/kernel/debug/ieee80211/phy1/ht40allow_map:5300 HT40 -+
+/sys/kernel/debug/ieee80211/phy1/ht40allow_map:5320 HT40 - 
+/sys/kernel/debug/ieee80211/phy1/ht40allow_map:5500 HT40  +
+/sys/kernel/debug/ieee80211/phy1/ht40allow_map:5520 HT40 -+
+/sys/kernel/debug/ieee80211/phy1/ht40allow_map:5540 HT40 -+
+/sys/kernel/debug/ieee80211/phy1/ht40allow_map:5560 HT40 -+
+/sys/kernel/debug/ieee80211/phy1/ht40allow_map:5580 HT40 -+
+/sys/kernel/debug/ieee80211/phy1/ht40allow_map:5600 HT40 -+
+/sys/kernel/debug/ieee80211/phy1/ht40allow_map:5620 HT40 -+
+/sys/kernel/debug/ieee80211/phy1/ht40allow_map:5640 HT40 -+
+/sys/kernel/debug/ieee80211/phy1/ht40allow_map:5660 HT40 -+
+/sys/kernel/debug/ieee80211/phy1/ht40allow_map:5680 HT40 -+
+/sys/kernel/debug/ieee80211/phy1/ht40allow_map:5700 HT40 - 
+/sys/kernel/debug/ieee80211/phy1/ht40allow_map:5745 HT40  +
+/sys/kernel/debug/ieee80211/phy1/ht40allow_map:5765 HT40 -+
+/sys/kernel/debug/ieee80211/phy1/ht40allow_map:5785 HT40 -+
+/sys/kernel/debug/ieee80211/phy1/ht40allow_map:5805 HT40 -+
+/sys/kernel/debug/ieee80211/phy1/ht40allow_map:5825 HT40 - 
+/sys/kernel/debug/ieee80211/phy1/hwflags:RX_INCLUDES_FCS
+/sys/kernel/debug/ieee80211/phy1/hwflags:HOST_BROADCAST_PS_BUFFERING
+/sys/kernel/debug/ieee80211/phy1/hwflags:SIGNAL_DBM
+/sys/kernel/debug/ieee80211/phy1/hwflags:SPECTRUM_MGMT
+/sys/kernel/debug/ieee80211/phy1/hwflags:AMPDU_AGGREGATION
+/sys/kernel/debug/ieee80211/phy1/hwflags:PS_NULLFUNC_STACK
+/sys/kernel/debug/ieee80211/phy1/hwflags:MFP_CAPABLE
+/sys/kernel/debug/ieee80211/phy1/hwflags:SUPPORT_FAST_XMIT
+/sys/kernel/debug/ieee80211/phy1/hwflags:REPORTS_TX_ACK_STATUS
+/sys/kernel/debug/ieee80211/phy1/hwflags:SUPPORTS_RC_TABLE
+/sys/kernel/debug/ieee80211/phy1/hwflags:SUPPORTS_HT_CCK_RATES
+/sys/kernel/debug/ieee80211/phy1/hwflags:SUPPORTS_CLONED_SKBS
+/sys/kernel/debug/ieee80211/phy1/long_retry_limit:4
+/sys/kernel/debug/ieee80211/phy1/misc:pending:
+/sys/kernel/debug/ieee80211/phy1/misc:[0] 0
+/sys/kernel/debug/ieee80211/phy1/misc:[1] 0
+/sys/kernel/debug/ieee80211/phy1/misc:[2] 0
+/sys/kernel/debug/ieee80211/phy1/misc:[3] 0
+/sys/kernel/debug/ieee80211/phy1/misc:[4] 0
+/sys/kernel/debug/ieee80211/phy1/misc:[5] 0
+/sys/kernel/debug/ieee80211/phy1/misc:[6] 0
+/sys/kernel/debug/ieee80211/phy1/misc:[7] 0
+/sys/kernel/debug/ieee80211/phy1/misc:[8] 0
+/sys/kernel/debug/ieee80211/phy1/misc:[9] 0
+/sys/kernel/debug/ieee80211/phy1/misc:[10] 0
+/sys/kernel/debug/ieee80211/phy1/misc:[11] 0
+/sys/kernel/debug/ieee80211/phy1/misc:[12] 0
+/sys/kernel/debug/ieee80211/phy1/misc:[13] 0
+/sys/kernel/debug/ieee80211/phy1/misc:[14] 0
+/sys/kernel/debug/ieee80211/phy1/misc:[15] 0
+/sys/kernel/debug/ieee80211/phy1/power:22
+/sys/kernel/debug/ieee80211/phy1/queues:00: 0x00000000/0
+/sys/kernel/debug/ieee80211/phy1/queues:01: 0x00000000/0
+/sys/kernel/debug/ieee80211/phy1/queues:02: 0x00000000/0
+/sys/kernel/debug/ieee80211/phy1/queues:03: 0x00000000/0
+/sys/kernel/debug/ieee80211/phy1/rate_ctrl_alg:minstrel_ht
+/sys/kernel/debug/ieee80211/phy1/rts_threshold:-1
+/sys/kernel/debug/ieee80211/phy1/short_retry_limit:7
+/sys/kernel/debug/ieee80211/phy1/total_ps_buffered:0
+/sys/kernel/debug/ieee80211/phy1/user_power:-2147483648
+/sys/kernel/debug/ieee80211/phy1/wep_iv:0xd951a9
