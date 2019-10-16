@@ -23,9 +23,11 @@ sudo reboot
 ```
 Connect MR16 to as follows
 
+```
 6 GND
 8 TX (RX on mr16)
 10 RX (TX on mr16)
+```
 Source: https://docs.microsoft.com/en-us/windows/iot-core/media/pinmappingsrpi/rp2_pinout.png
 
 Serial Port: /dev/ttyAMA0
