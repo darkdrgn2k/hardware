@@ -7,11 +7,13 @@ The scripts in this directory require:
 - `zenity`
 - `tftpd-hpa` to be setup
   - basically:
-    ```apt-get install tftpd-hpa
-cd /var/lib/tftpboot/
-wget https://downloads.openwrt.org/releases/18.06.2/targets/ar71xx/generic/openwrt-18.06.2-ar71xx-generic-mr16-squashfs-kernel.bin
-wget https://downloads.openwrt.org/releases/18.06.2/targets/ar71xx/generic/openwrt-18.06.2-ar71xx-generic-mr16-squashfs-rootfs.bin
-ifconfig enp3s0:1 192.168.1.101/24```
+    ```
+    apt-get install tftpd-hpa
+    cd /var/lib/tftpboot/
+    wget https://downloads.openwrt.org/releases/18.06.2/targets/ar71xx/generic/openwrt-18.06.2-ar71xx-generic-mr16-squashfs-kernel.bin
+    wget https://downloads.openwrt.org/releases/18.06.2/targets/ar71xx/generic/openwrt-18.06.2-ar71xx-generic-mr16-squashfs-rootfs.bin
+    ifconfig enp3s0:1 192.168.1.101/24
+    ```
 
 ## `FlashMerakis.sh`
 Must be run as root. Checks kernel log for serial consoles, pulls up a Zenity window to let you fix things up, then calls `./flash-mr16.pl` to do its dirty work.
