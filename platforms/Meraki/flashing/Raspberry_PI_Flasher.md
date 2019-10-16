@@ -3,7 +3,7 @@
 - Disables console and bluetooth to be used for TTL
 - Installs TFTP
 - Downloads firmware
-- Configures iterface
+- Configures interfaces
 
 ```
 #Disable pis default serial susage
